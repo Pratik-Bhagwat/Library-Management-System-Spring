@@ -113,7 +113,7 @@ public class TransactionsServiceImpl implements TransactionsService {
 
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-        helper.setFrom("sendingspringemails@gmail.com");
+        helper.setFrom("shopwaveservice@gmail.com");
         helper.setTo(card.getStudent().getEmailId());
         helper.setSubject(subject);
         helper.setText(text);
